@@ -11,7 +11,7 @@ def tiempo():
     digi_clock.config(text=display_time)
     digi_clock.after(200,tiempo)
 
-digi_clock=Label(root, font=("arial",150), bg="#396277", fg="#C1D1D8")
+digi_clock=Label(root, font=("arial",150), bg="#396277", fg="#DBEBF3")
 digi_clock.pack()
 
 tiempo()
